@@ -1,0 +1,212 @@
+
+
+img {
+    max-width: 100%;
+    vertical-align: top;
+}
+footer {
+    text-align: center;
+}
+
+body{
+    font-family: 'Source Sans Pro', sans-serif;;
+    font-size: 16px;
+    color:#28485d;
+}
+h1, h2, h3, h4, h5, h6{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    color: #3c3950;
+}
+p{
+    margin:0;  
+    padding: 0;
+}
+a:link{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: none;
+}
+
+header h1{
+    font-size: 30px;
+    padding:20px 0;
+}
+header .main-menu{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-wrap: wrap; 
+}
+
+header .main-menu a{
+    color:#3c3950;
+    font-weight: 600;
+    padding: 3px 15px;
+}
+header .login {
+    text-align: center;
+    width: 200px;
+    position: relative;
+}
+header .login::before{
+    content: '';
+      position: absolute;
+      display: block;
+      height: 76px;
+      width: 1px;
+      background: rgba(204, 204, 204, 0.5);
+      left: 14px;
+      top: 50%;
+      transform: translateY(-50%);
+}
+main .main-banner{
+    background: url('https://i.blogs.es/389033/programming/1366_2000.jpg');
+    height: 500px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+main .section-title{ 
+    font-size: 25px;
+    font-weight: 600;
+    text-transform: uppercase;
+    position: relative;
+    padding-bottom: 12px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+main .section-title::after{
+    content: '';
+    position: absolute;
+    display:block;
+    height: 1px;
+    width: 40px;
+    left: 50%; 
+    background: #5f727f;
+    bottom:0;
+    transform: translateX(-50%);
+}
+main aside{
+    margin-top: 30px;
+}
+main aside .widget{
+    border: 1px solid rgba(204, 204, 204, 0.5);
+    margin-bottom: 30px; 
+}
+main aside .widget .widget-title{ 
+    text-transform: uppercase;
+      font-size: 16px;
+      padding: 12px 20px;
+      text-align: center;
+      border-bottom: 1px solid rgba(204, 204, 204, 0.5);
+}
+main aside .widget .widget-content{
+    padding: 20px;
+} 
+
+main aside .widget-about{
+    text-align: center;
+}
+main aside .widget-about .img{
+    width:40px;
+    border-radius: 50%;
+    margin-bottom:10px;
+}
+main aside .widget-categories ul{
+    list-style: none;
+    padding:0;
+    margin:0;
+    text-align: center;
+    color: #265ec5;
+}
+main aside .widget-categories ul:hover{
+    cursor: pointer;
+}
+main aside .widget-categories a{
+    text-align: center;
+    padding: 10px 0;
+    display: block;
+}
+
+main .gallery-section{
+    padding: 81px 0;
+ }
+main .gallery-section .gallery-item {
+    margin-bottom: 30px;
+    cursor: pointer;
+    transition: all 0.5s ease;
+    box-shadow: 0 0 5px rgba(204, 204, 204, 0.5);
+    position: relative;
+}
+main .gallery-section .gallery-item:hover{
+    transform: translateY(-10px);
+    box-shadow: 0 8px 5px rgba(204, 204, 204, 0.5);
+}
+main .gallery-section .gallery-item:hover .gallery-item-info{
+    background: rgba(255,255,255);
+}
+main .gallery-section .gallery-item img{
+    width:100%;
+    height: 378px;
+    object-fit: cover;
+    object-position: center;
+}
+main .gallery-section .gallery-item .gallery-item-info{
+    padding: 30px;
+    text-align: center;
+    width: 100%;
+    position: absolute;
+    bottom: 35px;
+    left: 0;
+    background: rgba(255, 255, 255, 0.85);
+    transition: all 0.7s ease
+}
+main .gallery-section .gallery-item .gallery-item-info h4{
+    font-size: 16px;
+    padding-bottom: 12px;
+    margin-bottom: 12px;
+    position: relative;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+main .gallery-section .gallery-item .gallery-item-info h4::after{
+    content: '';
+    position: absolute;
+    display:block;
+    height: 1px;
+    width: 40px;
+    background: #5f727f;
+    left: 50%; 
+    bottom:0;
+    transform: translateX(-50%);
+}
+main .gallery-section .gallery-item .gallery-item-info p{
+    font-size: 14px;
+    opacity: 0.7;
+}
+
+footer{
+    border-top: 1px solid rgba(204, 204, 204, 0.5);
+    padding: 30px 0;
+    text-align: center;
+}
+
+.portfolio-modal input {
+    width: 100%;
+    border: 1px solid rgba(204, 204, 204, 0.5);
+    font-size: 16px;
+    padding: 10px; 
+}
+.btn-block{
+    width: 100%;
+}
+main .tag{
+    text-align: center;
+    align-items: center;
+}
