@@ -4,7 +4,7 @@ const users_1 = require("./users");
 require("jquery");
 function default_1() {
     if (localStorage.username) {
-        document.getElementById('loginModalButtonContainer').innerHTML = `<span>Hola, ${(0, users_1.getUsers)()[0].username}</span>`;
+        document.getElementById('loginModalButtonContainer').innerHTML = `<span>Hola, ${localStorage.username}</span>`;
         document.getElementById('addGalleryPhoto').innerHTML = `<a href ="#registroProyecto" class="btn btn-primary btn-block" data-toggle="modal">Agregar Proyecto</a>
                                                                 <button id="closeSessionButton" class="btn btn-danger btn-block">Cerrar Sesión</button>
                                                                 `;
